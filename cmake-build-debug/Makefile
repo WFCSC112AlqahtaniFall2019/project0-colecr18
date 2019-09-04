@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/82EDF560-225C-44FF-BDD9-C6EBD9023CCF/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/A6C08801-74B7-4F46-999B-17A5D8ACC14D/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/82EDF560-225C-44FF-BDD9-C6EBD9023CCF/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/A6C08801-74B7-4F46-999B-17A5D8ACC14D/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/clairecoleman/CLionProjects/project0-colecr18/cmake-bu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/82EDF560-225C-44FF-BDD9-C6EBD9023CCF/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/A6C08801-74B7-4F46-999B-17A5D8ACC14D/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/82EDF560-225C-44FF-BDD9-C6EBD9023CCF/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/bj/vs5fbplj4l3c4p1_wgbr8xx00000gn/T/AppTranslocation/A6C08801-74B7-4F46-999B-17A5D8ACC14D/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
