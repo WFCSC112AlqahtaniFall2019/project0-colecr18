@@ -12,6 +12,7 @@ int main() {
     int answerY;
     int check = 2;
 
+    
     cout << "Please enter 6 coefficients for 2 linear equations. "
             "For example: 8x + 7y = 38 and 3x - 5y = -1 " << endl;
     cin >> eqNum1;
